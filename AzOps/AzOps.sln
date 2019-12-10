@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzOps", "AzOps\AzOps.csproj", "{A3FD99B5-746B-4EA0-9D6C-E09A8B319C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzOps.Tests", "AzOps.Tests\AzOps.Tests.csproj", "{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3FD99B5-746B-4EA0-9D6C-E09A8B319C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FD99B5-746B-4EA0-9D6C-E09A8B319C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FD99B5-746B-4EA0-9D6C-E09A8B319C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FD99B5-746B-4EA0-9D6C-E09A8B319C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA355BB-BE13-464D-BFA7-E7F5BE08F1FA}
+	EndGlobalSection
+EndGlobal
