@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzOps", "AzOps\AzOps.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzOps.Tests", "AzOps.Tests\AzOps.Tests.csproj", "{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzOps.ARM", "AzOps.ARM\AzOps.ARM.deployproj", "{B9D58EF9-1757-4639-BD2C-8CF2B335B39C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE1FFB5-ACD1-4325-AC2D-9FA8F18CAB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D58EF9-1757-4639-BD2C-8CF2B335B39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D58EF9-1757-4639-BD2C-8CF2B335B39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D58EF9-1757-4639-BD2C-8CF2B335B39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D58EF9-1757-4639-BD2C-8CF2B335B39C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
