@@ -16,6 +16,7 @@ namespace RestSharp.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void TestCreateEmployee()
         {
             //RestClient client = new RestClient("http://localhost:3000/");
@@ -45,6 +46,7 @@ namespace RestSharp.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void TestGetEmployeeById()
         {
             EmployeeInfo info = scanmark.Get(1);
@@ -52,6 +54,7 @@ namespace RestSharp.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void TestGetAllEmployee()
         {
             List<EmployeeInfo> info = scanmark.Get();
@@ -60,6 +63,7 @@ namespace RestSharp.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void TestUpdateEmployee()
         {
             string response = scanmark.Update(5, new Models.EmployeeInfo
@@ -74,6 +78,7 @@ namespace RestSharp.Test
         }
 
         [TestMethod]
+        [Ignore]
         public void TestDeleteEmployee()
         {
             string response = scanmark.Delete(7);
