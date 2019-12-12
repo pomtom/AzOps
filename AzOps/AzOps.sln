@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzOps.Tests", "AzOps.Tests\
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzOps.ARM", "AzOps.ARM\AzOps.ARM.deployproj", "{D6AC9A53-E063-4C8E-96AB-4B020ACB1075}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp.Test", "..\..\RestSharp\RestSharp.Test\RestSharp.Test.csproj", "{060A2380-AAC4-42C3-BC89-0F5CBCDA7A80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSharp.Test", "RestSharp.Test\RestSharp.Test.csproj", "{060A2380-AAC4-42C3-BC89-0F5CBCDA7A80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
