@@ -30,24 +30,19 @@
       "minLength": 1
     },
 
-    "storage-account-location": {
-      "type": "string"
-    },
-    "storage-account-Name": {
-      "type": "string"
-    },
-    "storage-account-Type": {
-      "type": "string"
-    },
-    "storage-account-kind": {
-      "type": "string"
-    },
-    "storage-account-accessTier": {
-      "type": "string"
-    },
-    "storage-account-supportsHttpsTrafficOnly": {
-      "type": "bool"
-    }
+    "storage-account-location": { "type": "string" },
+    "storage-account-Name": { "type": "string" },
+    "storage-account-Type": { "type": "string" },
+    "storage-account-kind": { "type": "string" },
+    "storage-account-accessTier": { "type": "string" },
+    "storage-account-supportsHttpsTrafficOnly": { "type": "bool" },
+
+    "appinsights-name": { "type": "string" },
+    "appinsights-regionId": { "type": "string" },
+    "appinsights-tagsArray": { "type": "object" },
+    "appinsights-type": { "type": "string" },
+    "appinsights-requestSource": { "type": "string" }
+
   },
   "variables": {
     "webSiteName": "[parameters('web-app-name')]"
@@ -101,6 +96,19 @@
       },
       "kind": "[parameters('storage-account-kind')]",
       "tags": {}
+    },
+    {
+      "name": "[parameters('appinsights-name')]",
+      "type": "microsoft.insights/components",
+      "location": "[parameters('appinsights-regionId')]",
+      "tags": "[parameters('appinsights-tagsArray')]",
+      "apiVersion": "2014-08-01",
+      "properties": {
+        "ApplicationId": "[parameters('appinsights-name')]",
+        "Application_Type": "[parameters('appinsights-type')]",
+        "Flow_Type": "Redfield",
+        "Request_Source": "[parameters('appinsights-requestSource')]"
+      }
     }
   ]
 }

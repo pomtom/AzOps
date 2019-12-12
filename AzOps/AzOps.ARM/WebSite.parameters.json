@@ -17,7 +17,17 @@
 
     "storage-account-accessTier": { "value": "Cool" },
 
-    "storage-account-supportsHttpsTrafficOnly": { "value": false }
+    "storage-account-supportsHttpsTrafficOnly": { "value": false },
+
+    "appinsights-name": { "value": "zixer-app" },
+
+    "appinsights-regionId": { "value": "uksouth" },
+
+    "appinsights-tagsArray": { "value": [] },
+
+    "appinsights-type": { "value": "web" },
+
+    "appinsights-requestSource": { "value": "IbizaAIExtension" }
 
   }
 }
