@@ -23,8 +23,6 @@
 
     "appinsights-regionId": { "value": "uksouth" },
 
-    "appinsights-tagsArray": { "value": [] },
-
     "appinsights-type": { "value": "web" },
 
     "appinsights-requestSource": { "value": "IbizaAIExtension" }

@@ -39,7 +39,6 @@
 
     "appinsights-name": { "type": "string" },
     "appinsights-regionId": { "type": "string" },
-    "appinsights-tagsArray": { "type": "object" },
     "appinsights-type": { "type": "string" },
     "appinsights-requestSource": { "type": "string" }
 
@@ -101,7 +100,6 @@
       "name": "[parameters('appinsights-name')]",
       "type": "microsoft.insights/components",
       "location": "[parameters('appinsights-regionId')]",
-      "tags": "[parameters('appinsights-tagsArray')]",
       "apiVersion": "2014-08-01",
       "properties": {
         "ApplicationId": "[parameters('appinsights-name')]",
