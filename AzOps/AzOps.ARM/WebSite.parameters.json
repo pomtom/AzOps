@@ -3,21 +3,21 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
 
-    "hostingPlanName": { "value": "planZixer" },
+    "appservice-hostingplan-name": { "value": "planZixer" },
 
-    "webappname": { "value": "zixerdemoapp" },
+    "web-app-name": { "value": "zixerdemoapp" },
 
-    "location": { "value": "uksouth" },
+    "storage-account-location": { "value": "uksouth" },
 
-    "storageAccountName": { "value": "neboshstore" },
+    "storage-account-Name": { "value": "neboshstore" },
 
-    "accountType": { "value": "Standard_RAGRS" },
+    "storage-account-Type": { "value": "Standard_RAGRS" },
 
-    "kind": { "value": "StorageV2" },
+    "storage-account-kind": { "value": "StorageV2" },
 
-    "accessTier": { "value": "Cool" },
+    "storage-account-accessTier": { "value": "Cool" },
 
-    "supportsHttpsTrafficOnly": { "value": false }
+    "storage-account-supportsHttpsTrafficOnly": { "value": false }
 
   }
 }
