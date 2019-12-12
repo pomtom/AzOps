@@ -2,9 +2,22 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "hostingPlanName": {
-      "value": "planZixer"
-    },
-    "webappname": {"value": "zixerdemoapp"}
+
+    "hostingPlanName": { "value": "planZixer" },
+
+    "webappname": { "value": "zixerdemoapp" },
+
+    "location": { "value": "uksouth" },
+
+    "storageAccountName": { "value": "neboshstore" },
+
+    "accountType": { "value": "Standard_RAGRS" },
+
+    "kind": { "value": "StorageV2" },
+
+    "accessTier": { "value": "Cool" },
+
+    "supportsHttpsTrafficOnly": { "value": "false" }
+
   }
 }

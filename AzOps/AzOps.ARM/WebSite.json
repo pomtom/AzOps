@@ -38,6 +38,25 @@
     "webappname": {
       "type": "string",
       "minLength": 1
+    },
+
+    "location": {
+      "type": "string"
+    },
+    "storageAccountName": {
+      "type": "string"
+    },
+    "accountType": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "accessTier": {
+      "type": "string"
+    },
+    "supportsHttpsTrafficOnly": {
+      "type": "bool"
     }
   },
   "variables": {
@@ -76,6 +95,22 @@
         "name": "[variables('webSiteName')]",
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('hostingPlanName'))]"
       }
+    },
+    {
+      "name": "[parameters('storageAccountName')]",
+      "type": "Microsoft.Storage/storageAccounts",
+      "apiVersion": "2019-06-01",
+      "location": "[parameters('location')]",
+      "properties": {
+        "accessTier": "[parameters('accessTier')]",
+        "supportsHttpsTrafficOnly": "[parameters('supportsHttpsTrafficOnly')]"
+      },
+      "dependsOn": [],
+      "sku": {
+        "name": "[parameters('accountType')]"
+      },
+      "kind": "[parameters('kind')]",
+      "tags": {}
     }
   ]
 }
