@@ -10,7 +10,7 @@ namespace RestSharp.Test.Business
         RestClient client;
         public ScanningAndMarking()
         {
-            apiUrl = "http://zixerdemoapp.azurewebsites.net/api/values/";
+            apiUrl = "https://zixerdemoapp.azurewebsites.net/api/values/";
             client = new RestClient(apiUrl);
         }
 
